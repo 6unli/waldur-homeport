@@ -1,0 +1,88 @@
+[{
+  "url": "https://api.etais.ee/api/marketplace-categories/1951da2d97014c2c8cc372bb731f72ab/",
+  "uuid": "1951da2d97014c2c8cc372bb731f72ab",
+  "title": "Chromatography",
+  "description": "",
+  "icon": "https://api.etais.ee/media/files/marketplace_category_icons/cromato.png",
+  "offering_count": 6,
+  "sections": [],
+  "columns": [],
+  "components": []
+},
+  {
+  "url": "https://api.etais.ee/api/marketplace-categories/bb779e93556548eca478ea20a70593dd/",
+  "uuid": "bb779e93556548eca478ea20a70593dd",
+  "title": "Electrophoresis",
+  "description": "",
+  "icon": "https://api.etais.ee/media/files/marketplace_category_icons/electrophoresis.png",
+  "offering_count": 2,
+    "sections": [],
+    "columns": [],
+    "components": []
+},
+  {
+  "url": "https://api.etais.ee/api/marketplace-categories/4588ff519260461893ab371b8fe83363/",
+  "uuid": "4588ff519260461893ab371b8fe83363",
+  "title": "HPC",
+  "description": "High Performance Computing",
+  "icon": "https://api.etais.ee/media/files/marketplace_category_icons/hpc.svg",
+    "offering_count": 3,
+    "sections": [],
+    "columns": [],
+    "components": []
+  },
+  {
+    "url": "https://api.etais.ee/api/marketplace-categories/4d0b323d28f044919e11c7e0cc3627b4/",
+    "uuid": "4d0b323d28f044919e11c7e0cc3627b4",
+    "title": "Microscopy",
+    "description": "",
+    "icon": "https://api.etais.ee/media/files/marketplace_category_icons/2436779.png",
+    "offering_count": 2,
+    "sections": [],
+    "columns": [],
+    "components": []
+  },
+  {
+  "url": "https://api.etais.ee/api/marketplace-categories/041b4463dd1c45d4bf5c3f22fe53d7cd/",
+  "uuid": "041b4463dd1c45d4bf5c3f22fe53d7cd",
+  "title": "Platform",
+  "description": "",
+  "icon": "https://api.etais.ee/media/files/marketplace_category_icons/container.svg",
+  "offering_count": 1,
+  "sections": [],
+  "columns": [],
+  "components": []
+},
+  {
+  "url": "https://api.etais.ee/api/marketplace-categories/06e45986252244218bd062149fc3b5b5/",
+  "uuid": "06e45986252244218bd062149fc3b5b5",
+  "title": "Private clouds",
+  "description": "Virtual private clouds",
+  "icon": "https://api.etais.ee/media/files/marketplace_category_icons/vpc.svg",
+  "offering_count": 6,
+    "sections": [],
+    "columns": [],
+    "components": []
+},
+  {
+  "url": "https://api.etais.ee/api/marketplace-categories/450d51356f894bc881d745cde2af66cb/",
+  "uuid": "450d51356f894bc881d745cde2af66cb",
+  "title": "Solids NMR",
+  "description": "",
+  "icon": null,
+  "offering_count": 1,
+    "sections": [],
+    "columns": [],
+    "components": []
+},
+  {
+  "url": "https://api.etais.ee/api/marketplace-categories/def3811d8b504674b9323eebaf2dfc18/",
+  "uuid": "def3811d8b504674b9323eebaf2dfc18",
+  "title": "Solution NMR",
+  "description": "",
+  "icon": "https://api.etais.ee/media/files/marketplace_category_icons/pngegg.png",
+  "offering_count": 6,
+    "sections": [],
+    "columns": [],
+    "components": []
+}]

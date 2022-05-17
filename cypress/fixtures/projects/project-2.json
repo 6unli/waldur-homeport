@@ -1,0 +1,31 @@
+{
+  "url": "/api/projects/6628f38de458475baad6aa146f2ab406/",
+  "uuid": "6628f38de458475baad6aa146f2ab406",
+  "name": "Upgradable 4thgeneration emulation",
+  "customer": "/api/customers/1f13cbdf1878479ebcb0b218be3cd87d/",
+  "customer_uuid": "1f13cbdf1878479ebcb0b218be3cd87d",
+  "customer_name": "Andersen Ltd",
+  "customer_native_name": "",
+  "customer_abbreviation": "And",
+  "description": "integrate robust niches",
+  "created": "2020-01-02T15:53:54.498232Z",
+  "type": null,
+  "backend_id": "",
+  "end_date": null,
+  "oecd_fos_2007_code": null,
+  "is_industry": false,
+  "marketplace_resource_count": {
+    "6dfcdbe3c18241dc87526ef411bf6064": 1,
+    "e5a5e7651f394d10958328bbc3e967eb": 1,
+    "4d3a131dc20347e4abd1bdd3a16e73d1": 1,
+    "4588ff519260461893ab371b8fe83363": 1,
+    "041b4463dd1c45d4bf5c3f22fe53d7cd": 1,
+    "06e45986252244218bd062149fc3b5b5": 1
+  },
+  "billing_price_estimate": {
+    "total": 13.56,
+    "current": 0,
+    "tax": 0,
+    "tax_current": 0
+  }
+}

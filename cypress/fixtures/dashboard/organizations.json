@@ -1,0 +1,11 @@
+[{
+  "url": "/api/customer-permissions/261/",
+  "pk": 261,
+  "role": "owner",
+  "expiration_time": null,
+  "customer_uuid": "895e38d197e748459189f19285119edf",
+  "customer_name": "Allen-Rodriguez",
+  "customer_native_name": "",
+  "customer_abbreviation": "All",
+  "user_native_name": ""
+}]

@@ -1,6 +1,7 @@
-describe('SSH Keys', () => {
+describe('SSH Keys functionalities', () => {
   const successKeyCreated = 'The key has been created.';
   const successKeyRemoved = 'SSH key has been removed.';
+  const successKeyCopied = 'Text has been copied';
   const errorInvalidInput = 'Invalid SSH public key.';
   const errorKeyExist = 'Key with same fingerprint already exists.';
 
@@ -16,6 +17,44 @@ describe('SSH Keys', () => {
         },
       );
     cy.visit('/profile/keys/');
+  });
+
+  it('Should render title and key items', () => {
+    cy.get('h2')
+      .contains('SSH keys')
+      .should('exist')
+      .get('table tbody tr')
+      .should('have.length', 3);
+  });
+
+  it('Should expand items and copy key to clipboard', () => {
+    cy.get('tbody > :nth-child(1) > :nth-child(1)')
+      .click()
+      .get(':nth-child(2) > td > :nth-child(1)')
+      .should('contain', 'Public key')
+      .get('.copy-to-clipboard-container > p > a')
+      .click();
+    cy.get("[data-testid='notification']").contains(successKeyCopied);
+  });
+
+  it('Should export list as csv', () => {
+    cy.get('.btn-group > .dropdown')
+      .contains('Export as')
+      .click()
+      .get('.dropdown-menu')
+      .find('li > a')
+      .contains('CSV')
+      .click();
+  });
+
+  it('Should not submit null key input', () => {
+    cy.intercept('POST', '/api/keys/').as('addKey');
+    cy.contains('button', 'Add key').click();
+    cy.get('input[name="name"]')
+      .type('text key cy')
+      .get('button[type="submit"]')
+      .click();
+    cy.get("[data-testid='notification']").should('not.exist');
   });
 
   it('Should display error messages for invalid key input', () => {
@@ -54,7 +93,7 @@ describe('SSH Keys', () => {
     cy.get("[data-testid='notification']").contains(errorKeyExist);
   });
 
-  it('Should add a ssh key with appropriate inputs', () => {
+  it('Should add a SSH key with appropriate inputs', () => {
     cy.intercept('POST', '/api/keys/', {
       statusCode: 201,
       fixture: 'dashboard/ssh-key',
@@ -71,7 +110,7 @@ describe('SSH Keys', () => {
     });
   });
 
-  it('Should be able to delete a ssh key', () => {
+  it('Should be able to delete a SSH key', () => {
     cy.fixture('dashboard/ssh-keys').then((keys) => {
       cy.intercept('DELETE', `/api/keys/${keys[0].uuid}/`, {});
       cy.get('.table-container tbody tr')
@@ -82,6 +121,9 @@ describe('SSH Keys', () => {
       cy.get('.modal-footer').should('be.visible');
       cy.contains('.modal-footer button', 'Yes').click();
     });
-    cy.get("[data-testid='notification']").contains(successKeyRemoved);
+    cy.get("[data-testid='notification']")
+      .contains(successKeyRemoved)
+      .get('table tbody tr')
+      .should('have.length', 2);
   });
 });

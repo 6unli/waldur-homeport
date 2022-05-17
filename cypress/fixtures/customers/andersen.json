@@ -1,0 +1,57 @@
+{
+  "url": "/api/customers/1f13cbdf1878479ebcb0b218be3cd87d/",
+  "uuid": "1f13cbdf1878479ebcb0b218be3cd87d",
+  "created": "2020-01-02T07:51:35.613551Z",
+  "division": null,
+  "display_name": "And",
+  "projects": [{
+    "url": "/api/projects/6628f38de458475baad6aa146f2ab406/",
+    "uuid": "6628f38de458475baad6aa146f2ab406",
+    "name": "Upgradable 4thgeneration emulation"
+  }, {
+    "url": "/api/projects/27285c8120df4a10981bd94f64acec83/",
+    "uuid": "27285c8120df4a10981bd94f64acec83",
+    "name": "Optional attitude-oriented ability"
+  }, {
+    "url": "/api/projects/63b4385cc3f649e7a8b08c46e68598c1/",
+    "uuid": "63b4385cc3f649e7a8b08c46e68598c1",
+    "name": "testproject"
+  }],
+  "owners": [{
+    "url": "/api/users/47335eef60224e129e110967c3d1813b/",
+    "uuid": "47335eef60224e129e110967c3d1813b",
+    "username": "2853bde1ce1e41b2b5a030a091f40e08",
+    "full_name": "Katherine Brown",
+    "native_name": ""
+  }],
+  "support_users": [],
+  "service_managers": [],
+  "backend_id": "",
+  "image": null,
+  "blocked": false,
+  "archived": false,
+  "default_tax_percent": "0.00",
+  "accounting_start_date": "2020-01-02T07:51:35.614016Z",
+  "inet": null,
+  "name": "Andersen Ltd",
+  "native_name": "",
+  "abbreviation": "And",
+  "contact_details": "6544 Keith Path\nSmithchester, NE 56677",
+  "agreement_number": null,
+  "email": "AndersenLtd@example.com",
+  "phone_number": "",
+  "access_subnets": "",
+  "registration_code": "074-25-1694",
+  "homepage": "",
+  "domain": "example.com",
+  "vat_code": "",
+  "postal": "",
+  "address": "",
+  "bank_name": "",
+  "bank_account": "",
+  "latitude": null,
+  "longitude": null,
+  "country": "TL",
+  "payment_profiles": [],
+  "is_service_provider": true
+}

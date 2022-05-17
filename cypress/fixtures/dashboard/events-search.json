@@ -1,0 +1,36 @@
+[{
+  "uuid": "1611c096044b494383c4849ab8111593",
+  "created": "2022-04-25T17:23:38.707735Z",
+  "event_type": "ssh_key_creation_succeeded",
+  "message": "SSH key Anothery key has been created for user ADMIN",
+  "context": {
+    "user_uuid": "895e38d197e748459189f19285119edf",
+    "ip_address": "90.190.29.150",
+    "ssh_key_name": "Anothery key",
+    "ssh_key_uuid": "9c3e3396fc1c443997748d0f6a87d29f",
+    "user_is_staff": "False",
+    "user_username": "9b4e551ea3dd4ed7a1e72b19f01196",
+    "user_full_name": "ADMIN",
+    "user_is_support": "True",
+    "user_native_name": "",
+    "user_token_lifetime": "3600"
+  }
+},
+  {
+    "uuid": "38ac687047ab47218b1a1b842e73f62d",
+    "created": "2022-04-25T17:15:19.786765Z",
+    "event_type": "ssh_key_creation_succeeded",
+    "message": "SSH key Key XYZ test has been created for user ADMIN",
+    "context": {
+      "user_uuid": "895e38d197e748459189f19285119edf",
+      "ip_address": "90.190.29.150",
+      "ssh_key_name": "Key XYZ test",
+      "ssh_key_uuid": "6c013521f76f4a4d9cd1561520de833a",
+      "user_is_staff": "False",
+      "user_username": "9b4e551ea3dd4ed7a1e72b19f01196",
+      "user_full_name": "ADMIN",
+      "user_is_support": "True",
+      "user_native_name": "",
+      "user_token_lifetime": "3600"
+    }
+  }]

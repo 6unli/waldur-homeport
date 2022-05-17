@@ -18,6 +18,7 @@ declare global {
       openSelectDialog(selectId: string, option: string): Chainable;
       buttonShouldBeDisabled(btnClass: string): Chainable;
       waitForSpinner(): Chainable;
+      waitForDropdown(): Chainable;
     }
   }
 }
@@ -52,6 +53,11 @@ Cypress.Commands.add('fillAndSubmitLoginForm', (username, password) => {
 
 Cypress.Commands.add('waitForSpinner', () => {
   cy.get('.fa-spinner.fa-spin').should('not.exist');
+});
+
+Cypress.Commands.add('waitForDropdown', () => {
+  cy.get('.dropdown.open').should('exist', { log: false });
+  cy.get('a').contains('Loading actions').should('not.exist', { log: false });
 });
 
 Cypress.Commands.add('openDropdownByLabel', (label) => {
@@ -117,10 +123,16 @@ Cypress.Commands.add('mockUser', (userName) => {
     .intercept('POST', '/api-auth/password/', { token: 'valid' })
     .intercept('GET', '/api/users/me/', {
       fixture: `users/${userData}`,
-    })
-    .intercept('GET', '/api/customer-permissions/', [])
-    .intercept('GET', '/api/project-permissions/', [])
-    .intercept('GET', '/api/events/', []);
+    });
+
+  cy.fixture(`users/${userData}`).then((data) => {
+    cy.intercept(
+      'GET',
+      '/api/customer-permissions/',
+      data.customer_permissions,
+    );
+    cy.intercept('GET', '/api/project-permissions/', data.project_permissions);
+  });
 });
 
 Cypress.Commands.add('mockCustomer', () => {
@@ -132,8 +144,12 @@ Cypress.Commands.add('mockCustomer', () => {
     .intercept('GET', '/api/customers/bf6d515c9e6e445f9c339021b30fc96b/', {
       fixture: 'customers/alice.json',
     })
-    .intercept('GET', '/api/invoices/', [])
-    .intercept('GET', '/api/projects/', [])
+    .intercept('GET', '/api/invoices/**', {
+      fixture: 'customers/invoices_dashboard.json',
+    })
+    .intercept('GET', '/api/projects/', {
+      fixture: 'customers/projects.json',
+    })
     .intercept('GET', '/api/marketplace-orders/', []);
 });
 

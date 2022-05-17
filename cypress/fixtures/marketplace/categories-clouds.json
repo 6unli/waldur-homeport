@@ -1,0 +1,222 @@
+{
+  "url": "/api/marketplace-categories/06e45986252244218bd062149fc3b5b5/",
+  "uuid": "06e45986252244218bd062149fc3b5b5",
+  "title": "Private clouds",
+  "description": "Virtual private clouds",
+  "icon": "/media/files/marketplace_category_icons/vpc.svg",
+  "offering_count": 6,
+  "sections": [{
+    "key": "vpc_Support",
+    "title": "Support",
+    "attributes": [{
+      "key": "vpc_Support_email",
+      "title": "E-mail",
+      "type": "string",
+      "options": [],
+      "required": false,
+      "default": null
+    }, {
+      "key": "vpc_Support_phone",
+      "title": "Phone",
+      "type": "string",
+      "options": [],
+      "required": false,
+      "default": null
+    }, {
+      "key": "vpc_Support_portal",
+      "title": "Support portal",
+      "type": "string",
+      "options": [],
+      "required": false,
+      "default": null
+    }, {
+      "key": "vpc_Support_description",
+      "title": "Description",
+      "type": "string",
+      "options": [],
+      "required": false,
+      "default": null
+    },
+    {
+      "key": "vpc_Support_terms_of_services_link",
+      "title": "ToS link",
+      "type": "string",
+      "options": [],
+      "required": false,
+      "default": null
+    }],
+    "is_standalone": true
+  },
+    {
+    "key": "vpc_Security",
+    "title": "Security",
+    "attributes": [{
+      "key": "vpc_Security_certification",
+      "title": "Certification",
+      "type": "list",
+      "options": [{
+        "key": "vpc_Security_certification_iskel",
+        "title": "ISKE L"
+      }, {
+        "key": "vpc_Security_certification_iskem",
+        "title": "ISKE M"
+      }, {
+        "key": "vpc_Security_certification_iskeh",
+        "title": "ISKE H"
+      }, {
+        "key": "vpc_Security_certification_iso27001",
+        "title": "ISO27001"
+      }],
+      "required": false,
+      "default": null
+    }],
+    "is_standalone": true
+  }, {
+    "key": "vpc_Location",
+    "title": "Location",
+    "attributes": [{
+      "key": "vpc_Location_address",
+      "title": "Address",
+      "type": "string",
+      "options": [],
+      "required": false,
+      "default": null
+    }],
+    "is_standalone": true
+  }, {
+    "key": "vpc_details",
+    "title": "Details",
+    "attributes": [{
+      "key": "vpc_details_virtualization",
+      "title": "Virtualization",
+      "type": "choice",
+      "options": [{
+        "key": "vpc_details_virtualization_kvm",
+        "title": "KVM"
+      }, {
+        "key": "vpc_details_virtualization_xen",
+        "title": "XEN"
+      }, {
+        "key": "vpc_details_virtualization_vmware",
+        "title": "VMware"
+      }, {
+        "key": "vpc_details_virtualization_Baremetal",
+        "title": "Baremetal"
+      }],
+      "required": false,
+      "default": null
+    }, {
+      "key": "vpc_details_ha",
+      "title": "High Availability",
+      "type": "boolean",
+      "options": [],
+      "required": false,
+      "default": null
+    }, {
+      "key": "vpc_details_av_monitoring",
+      "title": "Availability monitoring",
+      "type": "boolean",
+      "options": [],
+      "required": false,
+      "default": null
+    }, {
+      "key": "vpc_details_computing_network",
+      "title": "Network",
+      "type": "list",
+      "options": [{
+        "key": "vpc_details_computing_network_private",
+        "title": "Private (own)"
+      }, {
+        "key": "vpc_details_computing_network_aso",
+        "title": "ASO"
+      }, {
+        "key": "vpc_details_computing_network_public",
+        "title": "Public Internet"
+      }, {
+        "key": "vpc_details_computing_network_campus_ut",
+        "title": "Campus (UT)"
+      }, {
+        "key": "vpc_details_computing_network_ddn",
+        "title": "DDN"
+      }, {
+        "key": "vpc_details_computing_network_ogn",
+        "title": "OGN"
+      }, {
+        "key": "vpc_details_computing_network_banglagovnet",
+        "title": "BanglaGovNet"
+      }],
+      "required": false,
+      "default": null
+    }],
+    "is_standalone": true
+  }, {
+    "key": "vpc_application",
+    "title": "Application",
+    "attributes": [{
+      "key": "vpc_application_os",
+      "title": "Operating system",
+      "type": "list",
+      "options": [{
+        "key": "vpc_application_os_ubuntu16.04",
+        "title": "Ubuntu 16.04"
+      }, {
+        "key": "vpc_application_os_centos7",
+        "title": "CentOS 7"
+      }, {
+        "key": "vpc_application_os_windows2016",
+        "title": "Windows 2016"
+      }, {
+        "key": "vpc_application_os_rhel7",
+        "title": "RHEL 7"
+      }],
+      "required": false,
+      "default": null
+    }, {
+      "key": "vpc_application_application",
+      "title": "Application",
+      "type": "list",
+      "options": [{
+        "key": "vpc_application_application_zevenet",
+        "title": "Zevenet"
+      }, {
+        "key": "vpc_application_application_owncloud",
+        "title": "Owncloud"
+      }, {
+        "key": "vpc_application_application_lamp",
+        "title": "LAMP"
+      }, {
+        "key": "vpc_application_application_nginx",
+        "title": "Nginx"
+      }, {
+        "key": "vpc_application_application_iis",
+        "title": "IIS"
+      }, {
+        "key": "vpc_application_application_mssql2017",
+        "title": "MS SQL Server 2017"
+      }, {
+        "key": "vpc_application_application_mysql57",
+        "title": "MySQL 5.7"
+      }],
+      "required": false,
+      "default": null
+    }],
+    "is_standalone": true
+  }],
+  "columns": [],
+  "components": [{
+    "type": "storage",
+    "name": "Storage",
+    "description": "",
+    "measured_unit": "GB"
+  }, {
+    "type": "ram",
+    "name": "RAM",
+    "description": "",
+    "measured_unit": "GB"
+  }, {
+    "type": "cores",
+    "name": "Cores",
+    "description": "",
+    "measured_unit": "cores"
+  }]
+}

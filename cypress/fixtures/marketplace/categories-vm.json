@@ -1,0 +1,218 @@
+{
+  "url": "/api/marketplace-categories/e5a5e7651f394d10958328bbc3e967eb/",
+  "uuid": "e5a5e7651f394d10958328bbc3e967eb",
+  "title": "VMs",
+  "description": "",
+  "icon": "/media/files/marketplace_category_icons/vm.svg",
+  "offering_count": 299,
+  "sections": [{
+    "key": "vm_Security",
+    "title": "Security",
+    "attributes": [{
+      "key": "vm_Security_certification",
+      "title": "Certification",
+      "type": "list",
+      "options": [{
+        "key": "vm_Security_certification_iskel",
+        "title": "ISKE L"
+      }, {
+        "key": "vm_Security_certification_iskem",
+        "title": "ISKE M"
+      }, {
+        "key": "vm_Security_certification_iskeh",
+        "title": "ISKE H"
+      }, {
+        "key": "vm_Security_certification_iso27001",
+        "title": "ISO27001"
+      }],
+      "required": false,
+      "default": null
+    }],
+    "is_standalone": true
+  },
+    {
+    "key": "vm_Location",
+    "title": "Location",
+    "attributes": [{
+      "key": "vm_Location_address",
+      "title": "Address",
+      "type": "string",
+      "options": [],
+      "required": false,
+      "default": null
+    }],
+    "is_standalone": true
+  },
+    {
+    "key": "vm_application",
+    "title": "Application",
+    "attributes": [{
+      "key": "vm_application_os",
+      "title": "Operating system",
+      "type": "list",
+      "options": [{
+        "key": "vm_application_os_ubuntu16.04",
+        "title": "Ubuntu 16.04"
+      }, {
+        "key": "vm_application_os_centos7",
+        "title": "CentOS 7"
+      }, {
+        "key": "vm_application_os_windows2016",
+        "title": "Windows 2016"
+      }, {
+        "key": "vm_application_os_rhel7",
+        "title": "RHEL 7"
+      }],
+      "required": false,
+      "default": null
+    }, {
+      "key": "vm_application_application",
+      "title": "Application",
+      "type": "list",
+      "options": [{
+        "key": "vm_application_application_zevenet",
+        "title": "Zevenet"
+      }, {
+        "key": "vm_application_application_owncloud",
+        "title": "Owncloud"
+      }, {
+        "key": "vm_application_application_lamp",
+        "title": "LAMP"
+      }, {
+        "key": "vm_application_application_nginx",
+        "title": "Nginx"
+      }, {
+        "key": "vm_application_application_iis",
+        "title": "IIS"
+      }, {
+        "key": "vm_application_application_mssql2017",
+        "title": "MS SQL Server 2017"
+      }, {
+        "key": "vm_application_application_mysql57",
+        "title": "MySQL 5.7"
+      }],
+      "required": false,
+      "default": null
+    }],
+    "is_standalone": true
+  },
+    {
+    "key": "vm_details",
+    "title": "Details",
+    "attributes": [{
+      "key": "vm_details_virtualization",
+      "title": "Virtualization",
+      "type": "choice",
+      "options": [{
+        "key": "vm_details_virtualization_kvm",
+        "title": "KVM"
+      }, {
+        "key": "vm_details_virtualization_xen",
+        "title": "XEN"
+      }, {
+        "key": "vm_details_virtualization_vmware",
+        "title": "VMware"
+      }, {
+        "key": "vm_details_virtualization_Baremetal",
+        "title": "Baremetal"
+      }],
+      "required": false,
+      "default": null
+    }, {
+      "key": "vm_details_ha",
+      "title": "High Availability",
+      "type": "boolean",
+      "options": [],
+      "required": false,
+      "default": null
+    }, {
+      "key": "vm_details_av_monitoring",
+      "title": "Availability monitoring",
+      "type": "boolean",
+      "options": [],
+      "required": false,
+      "default": null
+    }, {
+      "key": "vm_details_computing_network",
+      "title": "Network",
+      "type": "list",
+      "options": [{
+        "key": "vm_details_computing_network_private",
+        "title": "Private (own)"
+      }, {
+        "key": "vm_details_computing_network_aso",
+        "title": "ASO"
+      }, {
+        "key": "vm_details_computing_network_public",
+        "title": "Public Internet"
+      }, {
+        "key": "vm_details_computing_network_campus_ut",
+        "title": "Campus (UT)"
+      }],
+      "required": false,
+      "default": null
+    }],
+    "is_standalone": true
+  },
+    {
+    "key": "vm_remote_access",
+    "title": "Remote access",
+    "attributes": [{
+      "key": "vm_remote_access_vm_remote_access",
+      "title": "Remote access",
+      "type": "list",
+      "options": [{
+        "key": "vm_remote_access_vm_remote_access_console",
+        "title": "Console"
+      }, {
+        "key": "vm_remote_access_vm_remote_access_ssh_rdp",
+        "title": "SSH/RDP"
+      }, {
+        "key": "vm_remote_access_vm_remote_access_direct_access",
+        "title": "Direct access"
+      }],
+      "required": false,
+      "default": null
+    }, {
+      "key": "vm_remote_access_vm_access_level",
+      "title": "Access level",
+      "type": "choice",
+      "options": [{
+        "key": "vm_remote_access_vm_access_level_root",
+        "title": "Root / Administrator"
+      }, {
+        "key": "vm_remote_access_vm_access_level_user",
+        "title": "User level"
+      }],
+      "required": false,
+      "default": null
+    }],
+    "is_standalone": true
+  },
+    {
+    "key": "vm_software",
+    "title": "Software",
+    "attributes": [{
+      "key": "vm_software_antivirus",
+      "title": "Antivirus",
+      "type": "boolean",
+      "options": [],
+      "required": false,
+      "default": null
+    }],
+    "is_standalone": true
+  }],
+  "columns": [{
+    "index": 0,
+    "title": "Internal IP",
+    "attribute": "internal_ips",
+    "widget": "csv"
+  },
+    {
+    "index": 1,
+    "title": "External IP",
+    "attribute": "external_ips",
+    "widget": "csv"
+  }],
+  "components": []
+}

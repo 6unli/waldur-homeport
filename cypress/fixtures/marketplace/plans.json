@@ -1,0 +1,28 @@
+{
+  "url": "/api/marketplace-plans/c092afb394924d7d86f14bb5d6fb984c/",
+  "uuid": "c092afb394924d7d86f14bb5d6fb984c",
+  "name": "Default",
+  "description": "",
+  "article_code": "",
+  "prices": {
+    "cores": 0.072,
+    "ram": 0.0312,
+    "storage": 0.00117
+  },
+  "quotas": {
+    "cores": 0,
+    "ram": 0,
+    "storage": 0
+  },
+  "max_amount": null,
+  "archived": false,
+  "is_active": true,
+  "unit_price": "0.0000000",
+  "unit": "day",
+  "init_price": 0,
+  "switch_price": 0,
+  "backend_id": "",
+  "offering": "/api/marketplace-offerings/4ce883470b7242beb7368becf614d1ec/",
+  "plan_type": "limit",
+  "minimal_price": 0.10437
+}

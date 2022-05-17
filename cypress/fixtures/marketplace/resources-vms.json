@@ -1,0 +1,143 @@
+[{
+  "offering": "/api/marketplace-offerings/4ea40420034d4dab831b0ee95d8f7494/",
+  "offering_name": "Virtual machine in B123123",
+  "offering_uuid": "4ea40420034d4dab831b0ee95d8f7494",
+  "offering_description": "",
+  "offering_thumbnail": "/media/files/marketplace_service_offering_thumbnails/tartu_ylikool-logo_ja_v2rvid-cmyk-07_copy_1.png",
+  "offering_type": "OpenStackTenant.Instance",
+  "offering_terms_of_service": "",
+  "offering_shared": false,
+  "offering_billable": false,
+  "provider_name": "System Administration",
+  "provider_uuid": "dbd01a828cdf401883b187343a1415f1",
+  "category_title": "VMs",
+  "category_uuid": "e5a5e7651f394d10958328bbc3e967eb",
+  "plan": null,
+  "attributes": {
+    "name": "B123123",
+    "image": "/api/openstacktenant-images/a0a6a7dc7be24a23950da6f893ddf4d9/",
+    "flavor": "/api/openstacktenant-flavors/5211d5f4e487461db27b225e0199cb4f/",
+    "floating_ips": [{
+      "subnet": "/api/openstacktenant-subnets/249a51a9a4d74dd0a6c8fc46343bf286/"
+    }],
+    "ssh_public_key": "/api/keys/e6b29846f5584c7d95592860a8f7a7c1/",
+    "security_groups": [{
+      "url": "/api/openstacktenant-security-groups/2ef8dc7fa0a0402b92687b8421e71c3b/"
+    }, {
+      "url": "/api/openstacktenant-security-groups/cdb8d695387a4ad99309efe9b6c5c7e7/"
+    }, {
+      "url": "/api/openstacktenant-security-groups/a81dfcca6a564bfba286e1e3a09d8afc/"
+    }],
+    "data_volume_size": 1024,
+    "data_volume_type": "/api/openstacktenant-volume-types/31c7b7d826904df8a304a93cfa7cc48f/",
+    "internal_ips_set": [{
+      "subnet": "/api/openstacktenant-subnets/249a51a9a4d74dd0a6c8fc46343bf286/"
+    }],
+    "system_volume_size": 20480,
+    "system_volume_type": "/api/openstacktenant-volume-types/31c7b7d826904df8a304a93cfa7cc48f/"
+  },
+  "limits": {},
+  "uuid": "79f9845a55b340a793b23130b62ce126",
+  "created": "2022-02-14T07:40:22.563229Z",
+  "modified": "2022-03-07T04:58:16.305338Z",
+  "url": "/api/marketplace-resources/79f9845a55b340a793b23130b62ce126/",
+  "scope": "/api/openstacktenant-instances/de8578b6d51847e7bc5361116b04ca6f/",
+  "description": "",
+  "state": "OK",
+  "resource_uuid": "de8578b6d51847e7bc5361116b04ca6f",
+  "backend_id": "5de85d47-14b8-4470-92b7-a0c77de89204",
+  "effective_id": "",
+  "access_url": "",
+  "resource_type": "OpenStackTenant.Instance",
+  "project": "/api/projects/8c24928dd0524506b6f68b373df23d8c/",
+  "project_uuid": "8c24928dd0524506b6f68b373df23d8c",
+  "project_name": "B123123",
+  "project_description": "Project for person with matrix B123123",
+  "customer_uuid": "dbd01a828cdf401883b187343a1415f1",
+  "customer_name": "System Administration",
+  "backend_metadata": {
+    "state": "OK",
+    "action": "",
+    "external_ips": ["172.17.90.242"],
+    "internal_ips": ["192.168.42.80"],
+    "runtime_state": "ACTIVE",
+    "action_details": {}
+  },
+  "is_usage_based": false,
+  "is_limit_based": false,
+  "name": "B123123",
+  "current_usages": {},
+  "can_terminate": true,
+  "report": null,
+  "end_date": null,
+  "username": null
+},
+  {
+  "offering": "/api/marketplace-offerings/3fda80babb3149569eb28d331d05e89e/",
+  "offering_name": "Mandatory human-resource collaboration",
+  "offering_uuid": "3fda80babb3149569eb28d331d05e89e",
+  "offering_description": "For arm source type.",
+  "offering_thumbnail": null,
+  "offering_type": "OpenStackTenant.Instance",
+  "offering_terms_of_service": "Sense I she former focus.",
+  "offering_shared": false,
+  "offering_billable": false,
+  "provider_name": "Bates, Lin and Rosales",
+  "provider_uuid": "6983ac22f2bb469189311ab21e493359",
+  "category_title": "VMs",
+  "category_uuid": "e5a5e7651f394d10958328bbc3e967eb",
+  "plan": null,
+  "attributes": {
+    "name": "VmSpark",
+    "image": "/api/openstacktenant-images/97deaa6f07da4b9495c65e5dd495af57/",
+    "flavor": "/api/openstacktenant-flavors/62f14422faa44c3cacb96f642c1b8e99/",
+    "floating_ips": [],
+    "ssh_public_key": "/api/keys/2a6f69bfd77d409fa89f597cf8e7f923/",
+    "security_groups": [{
+      "url": "/api/openstacktenant-security-groups/26f4de8624e24706814519c47843848b/"
+    }, {
+      "url": "/api/openstacktenant-security-groups/b057bcfe41ee4ab59e3f4bed30a5a9b5/"
+    }],
+    "data_volume_type": "/api/openstacktenant-volume-types/a86656e4f38a4851bd8b240a6b1e33ec/",
+    "internal_ips_set": [{
+      "subnet": "/api/openstacktenant-subnets/546fbe3992be4c57a499fbb20312508d/"
+    }],
+    "system_volume_size": 65536,
+    "system_volume_type": "/api/openstacktenant-volume-types/a86656e4f38a4851bd8b240a6b1e33ec/"
+  },
+  "limits": {},
+  "uuid": "666b852f41004a9cbf3a28c973e9eaa8",
+  "created": "2021-01-25T09:46:25.509608Z",
+  "modified": "2021-03-01T06:48:56.457615Z",
+  "url": "/api/marketplace-resources/666b852f41004a9cbf3a28c973e9eaa8/",
+  "scope": "/api/openstacktenant-instances/257e0117af87481f80f40b7109c70298/",
+  "description": "",
+  "state": "Erred",
+  "resource_uuid": "257e0117af87481f80f40b7109c70298",
+  "backend_id": "a733768a-b903-49b2-a37c-736d6ce61f41",
+  "effective_id": "",
+  "access_url": "",
+  "resource_type": "OpenStackTenant.Instance",
+  "project": "/api/projects/7473e687c7544560925cb88be9f42a89/",
+  "project_uuid": "7473e687c7544560925cb88be9f42a89",
+  "project_name": "Mandatory web-enabled concept",
+  "project_description": "expedite compelling e-commerce",
+  "customer_uuid": "895e38d197e748459189f19285119edf",
+  "customer_name": "Allen-Rodriguez",
+  "backend_metadata": {
+    "state": "Erred",
+    "action": "",
+    "external_ips": ["193.40.156.194"],
+    "internal_ips": ["192.168.42.196"],
+    "runtime_state": "ACTIVE",
+    "action_details": {}
+  },
+  "is_usage_based": false,
+  "is_limit_based": false,
+  "name": "facilitaterobustportals",
+  "current_usages": {},
+  "can_terminate": true,
+  "report": null,
+  "end_date": null,
+  "username": null
+}]

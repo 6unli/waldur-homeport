@@ -1,0 +1,45 @@
+[{
+  "url": "/api/project-permissions/1044/",
+  "pk": 1044,
+  "role": "manager",
+  "expiration_time": null,
+  "project": "/api/projects/5f05090ac8f94ad6a4bd2f5b750d64ae/",
+  "project_uuid": "5f05090ac8f94ad6a4bd2f5b750d64ae",
+  "project_name": "demo project",
+  "name": "demo project",
+  "customer_name": "Allen-Rodriguez"
+},
+  {
+    "url": "/api/project-permissions/1040/",
+    "pk": 1040,
+    "role": "admin",
+    "expiration_time": null,
+    "project": "/api/projects/5f05090ac8f94ad6a4bd2f5b750d64ae/",
+    "project_uuid": "cf36932ef7c947fd8e8056e51564b0fe",
+    "project_name": "Up-sized maximized approach",
+    "name": "Up-sized maximized approach",
+    "customer_name": "Lopez, Jensen and Ortiz"
+  },
+  {
+    "url": "/api/project-permissions/1039/",
+    "pk": 1039,
+    "role": "admin",
+    "expiration_time": null,
+    "project": "/api/projects/5f05090ac8f94ad6a4bd2f5b750d64ae/",
+    "project_uuid": "64b13eac19d44f8aa3a573582df3a4b5",
+    "project_name": "Self-enabling fresh-thinking secured line",
+    "name": "Self-enabling fresh-thinking secured line",
+    "customer_name": "Bright PLC"
+  },
+  {
+    "url": "/api/project-permissions/1036/",
+    "pk": 1036,
+    "role": "manager",
+    "expiration_time": null,
+    "project": "/api/projects/5f05090ac8f94ad6a4bd2f5b750d64ae/",
+    "project_uuid": "e48410f7608f4185a77902a1d0e8d75e",
+    "project_name": "Vision-oriented bifurcated capacity",
+    "name": "Vision-oriented bifurcated capacity",
+    "customer_name": "Allen-Rodriguez"
+  }
+]

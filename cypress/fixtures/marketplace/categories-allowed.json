@@ -1,0 +1,1116 @@
+[{
+  "url": "api/marketplace-categories/4d3a131dc20347e4abd1bdd3a16e73d1/",
+  "uuid": "4d3a131dc20347e4abd1bdd3a16e73d1",
+  "title": "AKKI",
+  "description": "Available measurement devices",
+  "icon": "media/files/marketplace_category_icons/measurement_devices.svg",
+  "offering_count": 10,
+  "sections": [{
+    "key": "measurement_devices_Support",
+    "title": "Support",
+    "attributes": [{
+      "key": "measurement_devices_Support_email",
+      "title": "E-mail",
+      "type": "string",
+      "options": [],
+      "required": false,
+      "default": null
+    },
+      {
+      "key": "measurement_devices_Support_phone",
+      "title": "Phone",
+      "type": "string",
+      "options": [],
+      "required": false,
+      "default": null
+    },
+      {
+      "key": "measurement_devices_Support_portal",
+      "title": "Support portal",
+      "type": "string",
+      "options": [],
+      "required": false,
+      "default": null
+    },
+      {
+      "key": "measurement_devices_Support_description",
+      "title": "Description",
+      "type": "string",
+      "options": [],
+      "required": false,
+      "default": null
+    },
+      {
+      "key": "measurement_devices_Support_terms_of_services_link",
+      "title": "ToS link",
+      "type": "string",
+      "options": [],
+      "required": false,
+      "default": null
+    }],
+    "is_standalone": true
+  },
+    {
+    "key": "measurement_devices_Location",
+    "title": "Location",
+    "attributes": [{
+      "key": "measurement_devices_Location_address",
+      "title": "Address",
+      "type": "string",
+      "options": [],
+      "required": false,
+      "default": null
+    }],
+    "is_standalone": true
+  },
+        {
+    "key": "measurement_devices_model",
+    "title": "Model",
+    "attributes": [{
+      "key": "measurement_devices_model_measurement_devices_mark",
+      "title": "Mark",
+      "type": "string",
+      "options": [],
+      "required": false,
+      "default": null
+    },
+        {
+      "key": "measurement_devices_model_measurement_devices_model",
+      "title": "Model",
+      "type": "string",
+      "options": [],
+      "required": false,
+      "default": null
+    },
+        {
+      "key": "measurement_devices_model_measurement_devices_manufacturer",
+      "title": "Manufacturer",
+      "type": "string",
+      "options": [],
+      "required": false,
+      "default": null
+    }],
+    "is_standalone": true
+  },
+    {
+    "key": "measurement_devices_properties",
+    "title": "Properties",
+    "attributes": [{
+      "key": "measurement_devices_properties_measurement_devices_type",
+      "title": "Type",
+      "type": "choice",
+      "options": [{
+        "key": "measurement_devices_properties_measurement_devices_type_aas",
+        "title": "Atomic Absorption Spectrometer"
+      },
+        {
+        "key": "measurement_devices_properties_measurement_devices_type_spectrophotometer",
+        "title": "Spectrophotometer"
+      },
+        {
+        "key": "measurement_devices_properties_measurement_devices_type_spectrometers",
+        "title": "Spectrometers"
+      }],
+      "required": false,
+      "default": null
+    },
+        {
+      "key": "measurement_devices_properties_measurement_devices_sample_matrix",
+      "title": "Sample matrix",
+      "type": "list",
+      "options": [{
+        "key": "measurement_devices_properties_measurement_devices_sample_matrix_liquids",
+        "title": "Liquids"
+      },
+        {
+        "key": "measurement_devices_properties_measurement_devices_sample_matrix_solds",
+        "title": "Solids"
+      },
+        {
+        "key": "measurement_devices_properties_measurement_devices_sample_matrix_gaseous",
+        "title": "Gaseous"
+      }],
+      "required": false,
+      "default": null
+    },
+        {
+      "key": "measurement_devices_properties_measurement_devices_principle",
+      "title": "Measurement principle",
+      "type": "list",
+      "options": [{
+        "key": "measurement_devices_properties_measurement_devices_principle_chromatography",
+        "title": "Chromatography"
+      },
+        {
+        "key": "measurement_devices_properties_measurement_devices_principle_electrophoresis",
+        "title": "Electrophoresis"
+      },
+        {
+        "key": "measurement_devices_properties_measurement_devices_principle_x_ray_diffraction",
+        "title": "X-ray diffraction"
+      },
+        {
+        "key": "measurement_devices_properties_measurement_devices_principle_mass_spectrometry",
+        "title": "Mass-spectrometry"
+      },
+        {
+        "key": "measurement_devices_properties_measurement_devices_principle_magnetic_resonance",
+        "title": "Magnetic resonance"
+      },
+        {
+        "key": "measurement_devices_properties_measurement_devices_principle_physical_properties",
+        "title": "Physical properties"
+      },
+        {
+        "key": "measurement_devices_properties_measurement_devices_principle_infrapuna_spektromeeter",
+        "title": "Infrapuna spektromeeter"
+      },
+        {
+        "key": "measurement_devices_properties_measurement_devices_principle_thz_radiation_amplitude_and_phase",
+        "title": "Measurement of THz radiation amplitude and phase"
+      },
+        {
+        "key": "measurement_devices_properties_measurement_devices_principle_electromagntic_radiation_intensity",
+        "title": "Measurement of electromagntic radiation intensity absorbed by or reflected from the sample"
+      },
+        {
+        "key": "measurement_devices_properties_measurement_devices_principle_thz_electromagntic_radiation_intensity",
+        "title": "Measurement of THz frequency electromagntic radiation intensity absorbed by or reflected from the sample"
+      }],
+      "required": false,
+      "default": null
+    }],
+    "is_standalone": true
+  },
+    {
+    "key": "measurement_devices_usage_info",
+    "title": "Usage info",
+    "attributes": [{
+      "key": "measurement_devices_usage_info_measurement_devices_additional_components",
+      "title": "Additional components",
+      "type": "list",
+      "options": [{
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_autosampler",
+        "title": "Autosampler"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_autosampler_with_cooling",
+        "title": "Autosampler with cooling"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_photodiode_array_detector",
+        "title": "Photodiode array detector (PDA)"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_column_thermostate",
+        "title": "Column thermostate"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_flame_ionization_detector",
+        "title": "Flame ionization detector (FID)"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_thermal_conductivity_detector",
+        "title": "Thermal conductivity detector (TCD)"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_atr",
+        "title": "ATR"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_cryostat",
+        "title": "Cryostat"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_dilution_refrigerator",
+        "title": "Dilution refrigerator"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_measurement_devices_usage_info_measurement_devices_additional_components_liquid_he_cryostat",
+        "title": "Liquid He cryostat"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_measurement_devices_usage_info_measurement_devices_additional_components_onlinespe",
+        "title": "OnlineSPE"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_measurement_devices_usage_info_measurement_devices_additional_components_vsm_oven_magnetometer",
+        "title": "VSM oven magnetometer"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_3he_probe",
+        "title": "3He-probe"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_magnetic_force_microscope",
+        "title": "magnetic force microscope (AFM/MFM)"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_200mhz",
+        "title": "200 MHz"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_360mhz",
+        "title": "360 MHz"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_500mhz",
+        "title": "500 MHz"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_600mhz",
+        "title": "600 MHz"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_700mhz",
+        "title": "700 MHz"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_800mhz",
+        "title": "800 MHz"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_solutions",
+        "title": "Solutions"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_solids",
+        "title": "Solids"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_5_mm_tubes",
+        "title": "5 mm tubes"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_10_mm_tubes",
+        "title": "10 mm tubes"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_bbo_x_probe",
+        "title": "BBO - X{1H} probe"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_dul_13C_probe",
+        "title": "DUL - 13C probe"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_qnp_f_p_c_probe",
+        "title": "QNP - F/P/C{1H} probe"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_hr_mas_probe",
+        "title": "HR-MAS probe"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_cryoprobe",
+        "title": "Cryoprobe"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_tbi_1h_probe",
+        "title": "TBI - 1H{X} probe"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_txi_1h_probe",
+        "title": "TXI - 1H{C/N} probe"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_sample_cooling",
+        "title": "Sample cooling"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_liquid_n2_cooling",
+        "title": "Liquid N2 cooling"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_cryo_mas_probe",
+        "title": "Cryo-MAS probe"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_3_2_mm_mas",
+        "title": "3.2 mm MAS"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_1_8_mm_mas",
+        "title": "1.8 mm MAS"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_4_mm_mas",
+        "title": "4 mm MAS"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_1_mm_mas",
+        "title": "1 mm MAS"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_10_mm_mas",
+        "title": "10 mm MAS"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_cooling_down_to_5k",
+        "title": "Cooling down to 5K"
+      },
+        {
+        "key": "measurement_devices_usage_info_measurement_devices_additional_components_heating_up_to_1200k",
+        "title": "Heating up to 1200K"
+      }],
+      "required": false,
+      "default": null
+    },
+        {
+      "key": "measurement_devices_usage_info_measurement_devices_routine_application",
+      "title": "Routine applications",
+      "type": "text",
+      "options": [],
+      "required": false,
+      "default": null
+    }],
+    "is_standalone": true
+  }],
+  "columns": [],
+  "components": []
+},
+  {
+  "url": "api/marketplace-categories/4588ff519260461893ab371b8fe83363/",
+  "uuid": "4588ff519260461893ab371b8fe83363",
+  "title": "HPC",
+  "description": "",
+  "icon": "media/files/marketplace_category_icons/hpc.svg",
+  "offering_count": 5,
+  "sections": [{
+    "key": "hpc_Security",
+    "title": "Security",
+    "attributes": [{
+      "key": "hpc_Security_certification",
+      "title": "Certification",
+      "type": "list",
+      "options": [{
+        "key": "hpc_Security_certification_iskel",
+        "title": "ISKE L"
+      },
+        {
+        "key": "hpc_Security_certification_iskem",
+        "title": "ISKE M"
+      },
+        {
+        "key": "hpc_Security_certification_iskeh",
+        "title": "ISKE H"
+      },
+        {
+        "key": "hpc_Security_certification_iso27001",
+        "title": "ISO27001"
+      }],
+      "required": false,
+      "default": null
+    }],
+    "is_standalone": true
+  },
+    {
+    "key": "hpc_Support",
+    "title": "Support",
+    "attributes": [{
+      "key": "hpc_Support_email",
+      "title": "E-mail",
+      "type": "string",
+      "options": [],
+      "required": false,
+      "default": null
+    },
+      {
+      "key": "hpc_Support_phone",
+      "title": "Phone",
+      "type": "string",
+      "options": [],
+      "required": false,
+      "default": null
+    },
+      {
+      "key": "hpc_Support_portal",
+      "title": "Support portal",
+      "type": "string",
+      "options": [],
+      "required": false,
+      "default": null
+    },
+      {
+      "key": "hpc_Support_description",
+      "title": "Description",
+      "type": "string",
+      "options": [],
+      "required": false,
+      "default": null
+    },
+      {
+      "key": "hpc_Support_terms_of_services_link",
+      "title": "ToS link",
+      "type": "string",
+      "options": [],
+      "required": false,
+      "default": null
+    }],
+    "is_standalone": true
+  },
+    {
+    "key": "hpc_Location",
+    "title": "Location",
+    "attributes": [{
+      "key": "hpc_Location_address",
+      "title": "Address",
+      "type": "string",
+      "options": [],
+      "required": false,
+      "default": null
+    }],
+    "is_standalone": true
+  },
+    {
+    "key": "hpc_performance",
+    "title": "Performance",
+    "attributes": [{
+      "key": "hpc_performance_tflops",
+      "title": "Peak TFlop/s",
+      "type": "integer",
+      "options": [],
+      "required": false,
+      "default": null
+    },
+      {
+      "key": "hpc_performance_linpack",
+      "title": "Linpack TFlop/s",
+      "type": "integer",
+      "options": [],
+      "required": false,
+      "default": null
+    }],
+    "is_standalone": true
+  },
+    {
+    "key": "hpc_node_information",
+    "title": "Node information",
+    "attributes": [{
+      "key": "hpc_node_information_cpu",
+      "title": "CPU model",
+      "type": "choice",
+      "options": [],
+      "required": false,
+      "default": null
+    },
+      {
+      "key": "hpc_node_information_gpu",
+      "title": "GPU model",
+      "type": "choice",
+      "options": [],
+      "required": false,
+      "default": null
+    },
+      {
+      "key": "hpc_node_information_memory",
+      "title": "Memory per node (GB)",
+      "type": "integer",
+      "options": [],
+      "required": false,
+      "default": null
+    },
+      {
+      "key": "hpc_node_information_local_disk",
+      "title": "Local disk (GB)",
+      "type": "integer",
+      "options": [],
+      "required": false,
+      "default": null
+    },
+      {
+      "key": "hpc_node_information_interconnect",
+      "title": "Interconnect",
+      "type": "choice",
+      "options": [{
+        "key": "hpc_node_information_interconnect_infiniband_fdr",
+        "title": "Infiniband FDR"
+      },
+        {
+        "key": "hpc_node_information_interconnect_infiniband_edr",
+        "title": "Infiniband EDR"
+      },
+        {
+        "key": "hpc_node_information_interconnect_Ethernet_1G",
+        "title": "Ethernet 1G"
+      },
+        {
+        "key": "hpc_node_information_interconnect_Ethernet_10G",
+        "title": "Ethernet 10G"
+      }],
+      "required": false,
+      "default": null
+    },
+      {
+      "key": "hpc_node_information_node_count",
+      "title": "Node count",
+      "type": "integer",
+      "options": [],
+      "required": false,
+      "default": null
+    }],
+    "is_standalone": true
+  },
+    {
+    "key": "hpc_system_information",
+    "title": "System information",
+    "attributes": [{
+      "key": "hpc_system_information_queuing_system",
+      "title": "Queueing system",
+      "type": "list",
+      "options": [],
+      "required": false,
+      "default": null
+    },
+      {
+      "key": "hpc_system_information_home_space",
+      "title": "Home space",
+      "type": "string",
+      "options": [],
+      "required": false,
+      "default": null
+    },
+      {
+      "key": "hpc_system_information_work_space",
+      "title": "Work space",
+      "type": "string",
+      "options": [],
+      "required": false,
+      "default": null
+    },
+      {
+      "key": "hpc_system_information_linux_distro",
+      "title": "Linux distribution",
+      "type": "list",
+      "options": [],
+      "required": false,
+      "default": null
+    }],
+    "is_standalone": true
+  },
+    {
+    "key": "hpc_software",
+    "title": "Software",
+    "attributes": [{
+      "key": "hpc_software_applications",
+      "title": "Applications",
+      "type": "list",
+      "options": [],
+      "required": false,
+      "default": null
+    }],
+    "is_standalone": true
+  }],
+  "columns": [],
+  "components": []
+},
+  {
+  "url": "api/marketplace-categories/041b4463dd1c45d4bf5c3f22fe53d7cd/",
+  "uuid": "041b4463dd1c45d4bf5c3f22fe53d7cd",
+  "title": "Platform",
+  "description": "",
+  "icon": "media/files/marketplace_category_icons/container.svg",
+  "offering_count": 2,
+  "sections": [],
+  "columns": [],
+  "components": []
+},
+  {
+  "url": "api/marketplace-categories/06e45986252244218bd062149fc3b5b5/",
+  "uuid": "06e45986252244218bd062149fc3b5b5",
+  "title": "Private clouds",
+  "description": "Virtual private clouds",
+  "icon": "media/files/marketplace_category_icons/vpc.svg",
+  "offering_count": 6,
+  "sections": [{
+    "key": "vpc_Support",
+    "title": "Support",
+    "attributes": [{
+      "key": "vpc_Support_email",
+      "title": "E-mail",
+      "type": "string",
+      "options": [],
+      "required": false,
+      "default": null
+    },
+      {
+      "key": "vpc_Support_phone",
+      "title": "Phone",
+      "type": "string",
+      "options": [],
+      "required": false,
+      "default": null
+    },
+      {
+      "key": "vpc_Support_portal",
+      "title": "Support portal",
+      "type": "string",
+      "options": [],
+      "required": false,
+      "default": null
+    },
+      {
+      "key": "vpc_Support_description",
+      "title": "Description",
+      "type": "string",
+      "options": [],
+      "required": false,
+      "default": null
+    },
+      {
+      "key": "vpc_Support_terms_of_services_link",
+      "title": "ToS link",
+      "type": "string",
+      "options": [],
+      "required": false,
+      "default": null
+    }],
+    "is_standalone": true
+  },
+    {
+    "key": "vpc_Security",
+    "title": "Security",
+    "attributes": [{
+      "key": "vpc_Security_certification",
+      "title": "Certification",
+      "type": "list",
+      "options": [{
+        "key": "vpc_Security_certification_iskel",
+        "title": "ISKE L"
+      },
+        {
+        "key": "vpc_Security_certification_iskem",
+        "title": "ISKE M"
+      },
+        {
+        "key": "vpc_Security_certification_iskeh",
+        "title": "ISKE H"
+      },
+        {
+        "key": "vpc_Security_certification_iso27001",
+        "title": "ISO27001"
+      }],
+      "required": false,
+      "default": null
+    }],
+    "is_standalone": true
+  },
+    {
+    "key": "vpc_Location",
+    "title": "Location",
+    "attributes": [{
+      "key": "vpc_Location_address",
+      "title": "Address",
+      "type": "string",
+      "options": [],
+      "required": false,
+      "default": null
+    }],
+    "is_standalone": true
+  },
+    {
+    "key": "vpc_details",
+    "title": "Details",
+    "attributes": [{
+      "key": "vpc_details_virtualization",
+      "title": "Virtualization",
+      "type": "choice",
+      "options": [{
+        "key": "vpc_details_virtualization_kvm",
+        "title": "KVM"
+      },
+        {
+        "key": "vpc_details_virtualization_xen",
+        "title": "XEN"
+      },
+        {
+        "key": "vpc_details_virtualization_vmware",
+        "title": "VMware"
+      },
+        {
+        "key": "vpc_details_virtualization_Baremetal",
+        "title": "Baremetal"
+      }],
+      "required": false,
+      "default": null
+    },
+      {
+      "key": "vpc_details_ha",
+      "title": "High Availability",
+      "type": "boolean",
+      "options": [],
+      "required": false,
+      "default": null
+    },
+      {
+      "key": "vpc_details_av_monitoring",
+      "title": "Availability monitoring",
+      "type": "boolean",
+      "options": [],
+      "required": false,
+      "default": null
+    },
+      {
+      "key": "vpc_details_computing_network",
+      "title": "Network",
+      "type": "list",
+      "options": [{
+        "key": "vpc_details_computing_network_private",
+        "title": "Private (own)"
+      },
+        {
+        "key": "vpc_details_computing_network_aso",
+        "title": "ASO"
+      },
+        {
+        "key": "vpc_details_computing_network_public",
+        "title": "Public Internet"
+      },
+        {
+        "key": "vpc_details_computing_network_campus_ut",
+        "title": "Campus (UT)"
+      },
+        {
+        "key": "vpc_details_computing_network_ddn",
+        "title": "DDN"
+      },
+        {
+        "key": "vpc_details_computing_network_ogn",
+        "title": "OGN"
+      },
+        {
+        "key": "vpc_details_computing_network_banglagovnet",
+        "title": "BanglaGovNet"
+      }],
+      "required": false,
+      "default": null
+    }],
+    "is_standalone": true
+  },
+    {
+    "key": "vpc_application",
+    "title": "Application",
+    "attributes": [{
+      "key": "vpc_application_os",
+      "title": "Operating system",
+      "type": "list",
+      "options": [{
+        "key": "vpc_application_os_ubuntu16.04",
+        "title": "Ubuntu 16.04"
+      },
+        {
+        "key": "vpc_application_os_centos7",
+        "title": "CentOS 7"
+      },
+        {
+        "key": "vpc_application_os_windows2016",
+        "title": "Windows 2016"
+      },
+        {
+        "key": "vpc_application_os_rhel7",
+        "title": "RHEL 7"
+      }],
+      "required": false,
+      "default": null
+    },
+      {
+      "key": "vpc_application_application",
+      "title": "Application",
+      "type": "list",
+      "options": [{
+        "key": "vpc_application_application_zevenet",
+        "title": "Zevenet"
+      },
+        {
+        "key": "vpc_application_application_owncloud",
+        "title": "Owncloud"
+      },
+        {
+        "key": "vpc_application_application_lamp",
+        "title": "LAMP"
+      },
+        {
+        "key": "vpc_application_application_nginx",
+        "title": "Nginx"
+      },
+        {
+        "key": "vpc_application_application_iis",
+        "title": "IIS"
+      },
+        {
+        "key": "vpc_application_application_mssql2017",
+        "title": "MS SQL Server 2017"
+      },
+        {
+        "key": "vpc_application_application_mysql57",
+        "title": "MySQL 5.7"
+      }],
+      "required": false,
+      "default": null
+    }],
+    "is_standalone": true
+  }],
+  "columns": [],
+  "components": [{
+    "type": "storage",
+    "name": "Storage",
+    "description": "",
+    "measured_unit": "GB"
+  },
+    {
+    "type": "ram",
+    "name": "RAM",
+    "description": "",
+    "measured_unit": "GB"
+  },
+    {
+    "type": "cores",
+    "name": "Cores",
+    "description": "",
+    "measured_unit": "cores"
+  }]
+},
+  {
+  "url": "api/marketplace-categories/e5a5e7651f394d10958328bbc3e967eb/",
+  "uuid": "e5a5e7651f394d10958328bbc3e967eb",
+  "title": "VMs",
+  "description": "",
+  "icon": "media/files/marketplace_category_icons/vm.svg",
+  "offering_count": 1,
+  "sections": [{
+    "key": "vm_Security",
+    "title": "Security",
+    "attributes": [{
+      "key": "vm_Security_certification",
+      "title": "Certification",
+      "type": "list",
+      "options": [{
+        "key": "vm_Security_certification_iskel",
+        "title": "ISKE L"
+      },
+        {
+        "key": "vm_Security_certification_iskem",
+        "title": "ISKE M"
+      },
+        {
+        "key": "vm_Security_certification_iskeh",
+        "title": "ISKE H"
+      },
+        {
+        "key": "vm_Security_certification_iso27001",
+        "title": "ISO27001"
+      }],
+      "required": false,
+      "default": null
+    }],
+    "is_standalone": true
+  },
+    {
+    "key": "vm_Location",
+    "title": "Location",
+    "attributes": [{
+      "key": "vm_Location_address",
+      "title": "Address",
+      "type": "string",
+      "options": [],
+      "required": false,
+      "default": null
+    }],
+    "is_standalone": true
+  },
+    {
+    "key": "vm_application",
+    "title": "Application",
+    "attributes": [{
+      "key": "vm_application_os",
+      "title": "Operating system",
+      "type": "list",
+      "options": [{
+        "key": "vm_application_os_ubuntu16.04",
+        "title": "Ubuntu 16.04"
+      },
+        {
+        "key": "vm_application_os_centos7",
+        "title": "CentOS 7"
+      },
+        {
+        "key": "vm_application_os_windows2016",
+        "title": "Windows 2016"
+      },
+        {
+        "key": "vm_application_os_rhel7",
+        "title": "RHEL 7"
+      }],
+      "required": false,
+      "default": null
+    },
+      {
+      "key": "vm_application_application",
+      "title": "Application",
+      "type": "list",
+      "options": [{
+        "key": "vm_application_application_zevenet",
+        "title": "Zevenet"
+      },
+        {
+        "key": "vm_application_application_owncloud",
+        "title": "Owncloud"
+      },
+        {
+        "key": "vm_application_application_lamp",
+        "title": "LAMP"
+      },
+        {
+        "key": "vm_application_application_nginx",
+        "title": "Nginx"
+      },
+        {
+        "key": "vm_application_application_iis",
+        "title": "IIS"
+      },
+        {
+        "key": "vm_application_application_mssql2017",
+        "title": "MS SQL Server 2017"
+      },
+        {
+        "key": "vm_application_application_mysql57",
+        "title": "MySQL 5.7"
+      }],
+      "required": false,
+      "default": null
+    }],
+    "is_standalone": true
+  },
+        {
+    "key": "vm_details",
+    "title": "Details",
+    "attributes": [{
+      "key": "vm_details_virtualization",
+      "title": "Virtualization",
+      "type": "choice",
+      "options": [{
+        "key": "vm_details_virtualization_kvm",
+        "title": "KVM"
+      },
+        {
+        "key": "vm_details_virtualization_xen",
+        "title": "XEN"
+      },
+        {
+        "key": "vm_details_virtualization_vmware",
+        "title": "VMware"
+      },
+        {
+        "key": "vm_details_virtualization_Baremetal",
+        "title": "Baremetal"
+      }],
+      "required": false,
+      "default": null
+    },
+        {
+      "key": "vm_details_ha",
+      "title": "High Availability",
+      "type": "boolean",
+      "options": [],
+      "required": false,
+      "default": null
+    },
+        {
+      "key": "vm_details_av_monitoring",
+      "title": "Availability monitoring",
+      "type": "boolean",
+      "options": [],
+      "required": false,
+      "default": null
+    },
+        {
+      "key": "vm_details_computing_network",
+      "title": "Network",
+      "type": "list",
+      "options": [{
+        "key": "vm_details_computing_network_private",
+        "title": "Private (own)"
+      },
+        {
+        "key": "vm_details_computing_network_aso",
+        "title": "ASO"
+      },
+        {
+        "key": "vm_details_computing_network_public",
+        "title": "Public Internet"
+      },
+        {
+        "key": "vm_details_computing_network_campus_ut",
+        "title": "Campus (UT)"
+      }],
+      "required": false,
+      "default": null
+    }],
+    "is_standalone": true
+  },
+        {
+    "key": "vm_remote_access",
+    "title": "Remote access",
+    "attributes": [{
+      "key": "vm_remote_access_vm_remote_access",
+      "title": "Remote access",
+      "type": "list",
+      "options": [{
+        "key": "vm_remote_access_vm_remote_access_console",
+        "title": "Console"
+      },
+        {
+        "key": "vm_remote_access_vm_remote_access_ssh_rdp",
+        "title": "SSH/RDP"
+      },
+        {
+        "key": "vm_remote_access_vm_remote_access_direct_access",
+        "title": "Direct access"
+      }],
+      "required": false,
+      "default": null
+    },
+        {
+      "key": "vm_remote_access_vm_access_level",
+      "title": "Access level",
+      "type": "choice",
+      "options": [{
+        "key": "vm_remote_access_vm_access_level_root",
+        "title": "Root / Administrator"
+      },
+        {
+        "key": "vm_remote_access_vm_access_level_user",
+        "title": "User level"
+      }],
+      "required": false,
+      "default": null
+    }],
+    "is_standalone": true
+  },
+        {
+    "key": "vm_software",
+    "title": "Software",
+    "attributes": [{
+      "key": "vm_software_antivirus",
+      "title": "Antivirus",
+      "type": "boolean",
+      "options": [],
+      "required": false,
+      "default": null
+    }],
+    "is_standalone": true
+  }],
+  "columns": [{
+    "index": 0,
+    "title": "Internal IP",
+    "attribute": "internal_ips",
+    "widget": "csv"
+  },
+        {
+    "index": 1,
+    "title": "External IP",
+    "attribute": "external_ips",
+    "widget": "csv"
+  }],
+  "components": []
+}]

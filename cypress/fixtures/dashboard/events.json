@@ -1,0 +1,323 @@
+[{
+  "uuid": "3f153be7a4804b3abcbc4a607b3ac136",
+  "created": "2022-05-02T09:32:51.615723Z",
+  "event_type": "auth_logged_in_with_tara",
+  "message": "User 9b4e551ea3dd4ed7a1e72b19f01196 with full name ADMIN authenticated successfully with tara.",
+  "context": {
+    "provider": "tara",
+    "user_uuid": "895e38d197e748459189f19285119edf",
+    "ip_address": "90.190.29.150",
+    "user_is_staff": "True",
+    "user_username": "9b4e551ea3dd4ed7a1e72b19f01196",
+    "user_full_name": "ADMIN",
+    "user_is_support": "True",
+    "user_native_name": "",
+    "user_token_lifetime": "3600"
+  }
+}, {
+  "uuid": "7c4332df9e2a4e4a9db615dcb4d6d31e",
+  "created": "2022-04-29T17:15:59.154220Z",
+  "event_type": "auth_logged_in_with_tara",
+  "message": "User 9b4e551ea3dd4ed7a1e72b19f01196 with full name ADMIN authenticated successfully with tara.",
+  "context": {
+    "provider": "tara",
+    "user_uuid": "895e38d197e748459189f19285119edf",
+    "ip_address": "90.190.29.150",
+    "user_is_staff": "True",
+    "user_username": "9b4e551ea3dd4ed7a1e72b19f01196",
+    "user_full_name": "ADMIN",
+    "user_is_support": "True",
+    "user_native_name": "",
+    "user_token_lifetime": "3600"
+  }
+}, {
+  "uuid": "8c4bc6a0c771415287f6bf572bb5b996",
+  "created": "2022-04-29T12:13:25.602622Z",
+  "event_type": "auth_logged_in_with_tara",
+  "message": "User 9b4e551ea3dd4ed7a1e72b19f01196 with full name ADMIN authenticated successfully with tara.",
+  "context": {
+    "provider": "tara",
+    "user_uuid": "895e38d197e748459189f19285119edf",
+    "ip_address": "80.235.104.224",
+    "user_is_staff": "True",
+    "user_username": "9b4e551ea3dd4ed7a1e72b19f01196",
+    "user_full_name": "ADMIN",
+    "user_is_support": "True",
+    "user_native_name": "",
+    "user_token_lifetime": "3600"
+  }
+}, {
+  "uuid": "c25b9197277644138d88ec84fd17b38f",
+  "created": "2022-04-29T09:42:25.245354Z",
+  "event_type": "auth_logged_in_with_tara",
+  "message": "User 9b4e551ea3dd4ed7a1e72b19f01196 with full name ADMIN authenticated successfully with tara.",
+  "context": {
+    "provider": "tara",
+    "user_uuid": "895e38d197e748459189f19285119edf",
+    "ip_address": "80.235.104.224",
+    "user_is_staff": "True",
+    "user_username": "9b4e551ea3dd4ed7a1e72b19f01196",
+    "user_full_name": "ADMIN",
+    "user_is_support": "True",
+    "user_native_name": "",
+    "user_token_lifetime": "3600"
+  }
+}, {
+  "uuid": "c25b9197277644138d88ec84fd17b38f",
+  "created": "2022-04-29T05:25:24.861000Z",
+  "event_type": "auth_logged_in_with_tara",
+  "message": "User 9b4e551ea3dd4ed7a1e72b19f01196 with full name ADMIN authenticated successfully with tara.",
+  "context": {
+    "provider": "tara",
+    "user_uuid": "895e38d197e748459189f19285119edf",
+    "ip_address": "90.190.29.150",
+    "user_is_staff": "True",
+    "user_username": "9b4e551ea3dd4ed7a1e72b19f01196",
+    "user_full_name": "ADMIN",
+    "user_is_support": "True",
+    "user_native_name": "",
+    "user_token_lifetime": "3600"
+  }
+}, {
+  "uuid": "78a098d1185e43dfafa796982390393f",
+  "created": "2022-04-27T23:15:30.926647Z",
+  "event_type": "auth_logged_in_with_tara",
+  "message": "User 9b4e551ea3dd4ed7a1e72b19f01196 with full name ADMIN authenticated successfully with tara.",
+  "context": {
+    "provider": "tara",
+    "user_uuid": "895e38d197e748459189f19285119edf",
+    "ip_address": "90.190.29.150",
+    "user_is_staff": "True",
+    "user_username": "9b4e551ea3dd4ed7a1e72b19f01196",
+    "user_full_name": "ADMIN",
+    "user_is_support": "True",
+    "user_native_name": "",
+    "user_token_lifetime": "3600"
+  }
+}, {
+  "uuid": "e50edfd759c84460b8452c8d222dd63a",
+  "created": "2022-04-27T23:12:50.915932Z",
+  "event_type": "auth_logged_in_with_tara",
+  "message": "User 9b4e551ea3dd4ed7a1e72b19f01196 with full name ADMIN authenticated successfully with tara.",
+  "context": {
+    "provider": "tara",
+    "user_uuid": "895e38d197e748459189f19285119edf",
+    "ip_address": "90.190.29.150",
+    "user_is_staff": "True",
+    "user_username": "9b4e551ea3dd4ed7a1e72b19f01196",
+    "user_full_name": "ADMIN",
+    "user_is_support": "True",
+    "user_native_name": "",
+    "user_token_lifetime": "3600"
+  }
+}, {
+  "uuid": "6a01931000c3462aa16e7d9cd68815f1",
+  "created": "2022-04-27T20:16:56.151322Z",
+  "event_type": "auth_logged_in_with_tara",
+  "message": "User 9b4e551ea3dd4ed7a1e72b19f01196 with full name ADMIN authenticated successfully with tara.",
+  "context": {
+    "provider": "tara",
+    "user_uuid": "895e38d197e748459189f19285119edf",
+    "ip_address": "90.190.29.150",
+    "user_is_staff": "True",
+    "user_username": "9b4e551ea3dd4ed7a1e72b19f01196",
+    "user_full_name": "ADMIN",
+    "user_is_support": "True",
+    "user_native_name": "",
+    "user_token_lifetime": "3600"
+  }
+}, {
+  "uuid": "56bd4ab10fd043df86b98115c04bfe96",
+  "created": "2022-04-27T09:57:23.428302Z",
+  "event_type": "auth_logged_in_with_tara",
+  "message": "User 9b4e551ea3dd4ed7a1e72b19f01196 with full name ADMIN authenticated successfully with tara.",
+  "context": {
+    "provider": "tara",
+    "user_uuid": "895e38d197e748459189f19285119edf",
+    "ip_address": "80.235.104.224",
+    "user_is_staff": "True",
+    "user_username": "9b4e551ea3dd4ed7a1e72b19f01196",
+    "user_full_name": "ADMIN",
+    "user_is_support": "True",
+    "user_native_name": "",
+    "user_token_lifetime": "3600"
+  }
+}, {
+  "uuid": "b8656ebc89f74468b7ebc6010d677c9f",
+  "created": "2022-04-26T23:59:48.968669Z",
+  "event_type": "auth_logged_in_with_tara",
+  "message": "User 9b4e551ea3dd4ed7a1e72b19f01196 with full name ADMIN authenticated successfully with tara.",
+  "context": {
+    "provider": "tara",
+    "user_uuid": "895e38d197e748459189f19285119edf",
+    "ip_address": "90.190.29.150",
+    "user_is_staff": "True",
+    "user_username": "9b4e551ea3dd4ed7a1e72b19f01196",
+    "user_full_name": "ADMIN",
+    "user_is_support": "True",
+    "user_native_name": "",
+    "user_token_lifetime": "3600"
+  }
+}, {
+  "uuid": "19371937adf14b9ea70189541d5b5e86",
+  "created": "2022-04-26T21:08:15.326773Z",
+  "event_type": "auth_logged_in_with_tara",
+  "message": "User 9b4e551ea3dd4ed7a1e72b19f01196 with full name ADMIN authenticated successfully with tara.",
+  "context": {
+    "provider": "tara",
+    "user_uuid": "895e38d197e748459189f19285119edf",
+    "ip_address": "90.190.29.150",
+    "user_is_staff": "False",
+    "user_username": "9b4e551ea3dd4ed7a1e72b19f01196",
+    "user_full_name": "ADMIN",
+    "user_is_support": "True",
+    "user_native_name": "",
+    "user_token_lifetime": "3600"
+  }
+}, {
+  "uuid": "68d484f0a434406288479712de6c658a",
+  "created": "2022-04-26T18:45:36.468033Z",
+  "event_type": "auth_logged_in_with_tara",
+  "message": "User 9b4e551ea3dd4ed7a1e72b19f01196 with full name ADMIN authenticated successfully with tara.",
+  "context": {
+    "provider": "tara",
+    "user_uuid": "895e38d197e748459189f19285119edf",
+    "ip_address": "90.190.29.150",
+    "user_is_staff": "False",
+    "user_username": "9b4e551ea3dd4ed7a1e72b19f01196",
+    "user_full_name": "ADMIN",
+    "user_is_support": "True",
+    "user_native_name": "",
+    "user_token_lifetime": "3600"
+  }
+}, {
+  "uuid": "9e70f6d7cb5344dcb93d9b03f8df9ce5",
+  "created": "2022-04-26T11:30:48.434186Z",
+  "event_type": "auth_logged_in_with_tara",
+  "message": "User 9b4e551ea3dd4ed7a1e72b19f01196 with full name ADMIN authenticated successfully with tara.",
+  "context": {
+    "provider": "tara",
+    "user_uuid": "895e38d197e748459189f19285119edf",
+    "ip_address": "80.235.104.224",
+    "user_is_staff": "False",
+    "user_username": "9b4e551ea3dd4ed7a1e72b19f01196",
+    "user_full_name": "ADMIN",
+    "user_is_support": "True",
+    "user_native_name": "",
+    "user_token_lifetime": "3600"
+  }
+}, {
+  "uuid": "86af5bc4542940c59286402de44780e6",
+  "created": "2022-04-26T10:38:42.117445Z",
+  "event_type": "auth_logged_in_with_tara",
+  "message": "User 9b4e551ea3dd4ed7a1e72b19f01196 with full name ADMIN authenticated successfully with tara.",
+  "context": {
+    "provider": "tara",
+    "user_uuid": "895e38d197e748459189f19285119edf",
+    "ip_address": "80.235.104.224",
+    "user_is_staff": "False",
+    "user_username": "9b4e551ea3dd4ed7a1e72b19f01196",
+    "user_full_name": "ADMIN",
+    "user_is_support": "True",
+    "user_native_name": "",
+    "user_token_lifetime": "3600"
+  }
+}, {
+  "uuid": "01e4bb0f5109429d8bc68a36160300fc",
+  "created": "2022-04-25T17:57:56.365794Z",
+  "event_type": "freeipa_profile_enabled",
+  "message": "hpc_9b4e551ea3dd4ed7a1e72b19f01 FreeIPA profile has been enabled.",
+  "context": {
+    "username": "hpc_9b4e551ea3dd4ed7a1e72b19f01",
+    "user_uuid": "895e38d197e748459189f19285119edf",
+    "ip_address": "90.190.29.150",
+    "user_is_staff": "False",
+    "user_username": "9b4e551ea3dd4ed7a1e72b19f01196",
+    "user_full_name": "ADMIN",
+    "user_is_support": "True",
+    "user_native_name": "",
+    "user_token_lifetime": "3600"
+  }
+}, {
+  "uuid": "1611c096044b494383c4849ab8111593",
+  "created": "2022-04-25T17:23:38.707735Z",
+  "event_type": "ssh_key_creation_succeeded",
+  "message": "SSH key Anothery key has been created for user ADMIN",
+  "context": {
+    "user_uuid": "895e38d197e748459189f19285119edf",
+    "ip_address": "90.190.29.150",
+    "ssh_key_name": "Anothery key",
+    "ssh_key_uuid": "9c3e3396fc1c443997748d0f6a87d29f",
+    "user_is_staff": "False",
+    "user_username": "9b4e551ea3dd4ed7a1e72b19f01196",
+    "user_full_name": "ADMIN",
+    "user_is_support": "True",
+    "user_native_name": "",
+    "user_token_lifetime": "3600"
+  }
+}, {
+  "uuid": "38ac687047ab47218b1a1b842e73f62d",
+  "created": "2022-04-25T17:15:19.786765Z",
+  "event_type": "ssh_key_creation_succeeded",
+  "message": "SSH key Key XYZ test has been created for user ADMIN",
+  "context": {
+    "user_uuid": "895e38d197e748459189f19285119edf",
+    "ip_address": "90.190.29.150",
+    "ssh_key_name": "Key XYZ test",
+    "ssh_key_uuid": "6c013521f76f4a4d9cd1561520de833a",
+    "user_is_staff": "False",
+    "user_username": "9b4e551ea3dd4ed7a1e72b19f01196",
+    "user_full_name": "ADMIN",
+    "user_is_support": "True",
+    "user_native_name": "",
+    "user_token_lifetime": "3600"
+  }
+}, {
+  "uuid": "a6c45bf3ecc247118a8efef66d992136",
+  "created": "2022-04-25T16:39:25.104530Z",
+  "event_type": "auth_logged_in_with_tara",
+  "message": "User 9b4e551ea3dd4ed7a1e72b19f01196 with full name ADMIN authenticated successfully with tara.",
+  "context": {
+    "provider": "tara",
+    "user_uuid": "895e38d197e748459189f19285119edf",
+    "ip_address": "90.190.29.150",
+    "user_is_staff": "False",
+    "user_username": "9b4e551ea3dd4ed7a1e72b19f01196",
+    "user_full_name": "ADMIN",
+    "user_is_support": "True",
+    "user_native_name": "",
+    "user_token_lifetime": "3600"
+  }
+}, {
+  "uuid": "38afa6e784814b7ea170e525cabaeb87",
+  "created": "2022-04-25T11:58:25.805216Z",
+  "event_type": "auth_logged_in_with_tara",
+  "message": "User 9b4e551ea3dd4ed7a1e72b19f01196 with full name ADMIN authenticated successfully with tara.",
+  "context": {
+    "provider": "tara",
+    "user_uuid": "895e38d197e748459189f19285119edf",
+    "ip_address": "90.190.29.150",
+    "user_is_staff": "False",
+    "user_username": "9b4e551ea3dd4ed7a1e72b19f01196",
+    "user_full_name": "ADMIN",
+    "user_is_support": "True",
+    "user_native_name": "",
+    "user_token_lifetime": "3600"
+  }
+}, {
+  "uuid": "a9a8ab3e9fdd47a797c8e641d9d078af",
+  "created": "2022-04-25T11:55:50.607872Z",
+  "event_type": "auth_logged_in_with_tara",
+  "message": "User 9b4e551ea3dd4ed7a1e72b19f01196 with full name ADMIN authenticated successfully with tara.",
+  "context": {
+    "provider": "tara",
+    "user_uuid": "895e38d197e748459189f19285119edf",
+    "ip_address": "90.190.29.150",
+    "user_is_staff": "False",
+    "user_username": "9b4e551ea3dd4ed7a1e72b19f01196",
+    "user_full_name": "ADMIN",
+    "user_is_support": "True",
+    "user_native_name": "",
+    "user_token_lifetime": "3600"
+  }
+}]

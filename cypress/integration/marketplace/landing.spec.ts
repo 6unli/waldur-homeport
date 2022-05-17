@@ -1,9 +1,8 @@
-xdescribe('Marketplace landing view', () => {
+describe('Marketplace landing view', () => {
   beforeEach(() => {
     cy.mockUser()
       .mockChecklists()
       .setToken()
-
       .log('Visit Marketplace')
       .intercept('GET', '/api/customers/**/counters/', {
         fixture: 'marketplace/counters.json',
